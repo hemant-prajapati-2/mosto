@@ -1,0 +1,539 @@
+@media screen and (max-width:1169px) {
+    #header{
+        padding: 5px 0;
+    }
+    .navigation ul li a{
+        font-size: 14px;
+    }
+    .boy-now a{
+        font-size: 13px;
+        padding: 4px 13px;
+    }
+    .navigation ul {
+        gap: 30px;
+    }
+    .banner-main {
+        top: 34%;
+    }
+    .banner-contant h6{
+        margin-bottom: 8px;
+        line-height: 10px;
+    }
+    .banner-contant h1{
+        padding-bottom: 20px;
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .banner-contant a{
+        padding: 10px 18px;
+        font-size: 13px;
+    }
+    .banner-img img {
+        height: 600px;
+    }
+    .agency-main{
+        padding-top: 40px;
+    }
+    .agency-contant h2{
+        padding-bottom: 10px;
+        font-size: 29px;
+        line-height: 30px;
+    }
+    .agency-line{
+        margin: 18px auto;
+    }
+    .agency-main p {
+        font-size: 15px;
+        line-height: 28px;
+        padding-bottom: 31px;
+    }
+    #featur{
+        padding-top: 70px;
+    }
+    .featur-contant h2{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .featur-img-main {
+        padding: 35px 0;
+    }
+    .featur-img-main{
+        gap: 15px;
+    }
+    .col-featur-img {
+        width: calc(33.33% - 10px);
+    }
+    #featur::after{
+        height: 140px;
+        bottom: -1px;
+    }
+    #featur{
+        padding-bottom: 140px;
+    }
+    .strip-main{
+        gap: 50px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    .strip-contan p {
+        font-size: 17px;
+        line-height: 29px;
+        padding: 20px 0;
+    }
+    .strip-contan h4{
+        margin-bottom: 2px;
+    }
+    .inertia-main {
+        padding: 60px 0;
+    }
+    .inertia-text h2{
+        font-size: 28px;
+        line-height: 15px;
+        padding-bottom: 12px;   
+    }
+    .agency-line {
+        margin: 14px auto;
+    }
+    .inertia-text p{
+        line-height: 25px;
+        padding-top: 0;
+    }
+    .dublin {
+        margin: 30px 0;
+        gap: 30px;
+    }
+    .col-dublin {
+        width: calc(33.33% - 20px);
+    }
+    .dublin-text h3{
+        column-gap: 35px;
+        margin-bottom: 10px;
+    }
+    .dublin-text ul a {
+        padding-bottom: 5px;
+    }
+    .dublin-btn a{
+        font-size: 12px;
+        padding: 10px 12px ;
+    }
+    .company-main {
+        padding: 50px 0;
+    }
+    .company-contant h2{
+        font-size: 28px;
+        line-height: 25px;
+    }
+    .company-blog{
+        gap: 20px;
+    }
+    .col-company {
+        width: calc(33.33% - 13.3px);
+    }
+    .company-img {
+        margin-bottom: 15px;
+    }
+    .company-text h3{
+        padding-bottom:10px ;
+    }
+    .company-text p {
+        font-size: 13px;
+        padding-bottom: 13px;
+        line-height: 19px;
+    }
+    .dublin-btn a .fa {
+        padding-left: 5px;
+    }
+    .make-img img {
+        height: 360px;
+    }
+    .make-text h2 {
+        font-size: 35px;
+        line-height: 35px;
+        padding-bottom: 12px;
+    }
+    .make-text p{
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    } 
+    .make-text a {
+        padding: 12px 14px;
+    }
+    .footer-blog h5{
+        line-height: 15px;
+        margin-bottom: 15px;
+    }
+    .footer-icon {
+        padding: 25px 0;
+    }
+    .footer-icon ul li a{
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:991px){
+    .navigation ul{
+        display: block;
+    }
+   .header-right{
+    gap: 10px;
+   }
+    .manu-icon{
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .manu-icon span{
+        display: block;
+        width: 100%;
+        height: 3px;
+        background: #fff;
+        margin-left: auto;
+        transition: all ease 0.5s;
+    }
+    .manu-icon span::after,
+    .manu-icon span::before{
+        content: '';
+        position: absolute;
+        top: 4px;
+        left: 0;
+        height: 3px;
+        background: #fff;
+        width: 100%;
+        transition: all ease 0.5s;
+    }
+    .manu-icon span::after{
+    top: 24px;
+    }
+
+    .navigation ul{
+        width: 100%;
+        background: red;
+        position: absolute;
+        top: 69px;
+        right:0;
+        padding: 15px;
+    }
+   
+    .banner-img img {
+        height: 443px;
+    }
+    .banner-contant h6{
+        font-size: 10px;
+    }
+    .banner-contant h1 {
+        padding-bottom: 20px;
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .banner-contant a{
+        font-size: 11px;
+        padding: 8px 18px;
+    }
+    .agency-main {
+        padding-top: 30px;
+    }
+    .agency-contant h2 {
+        padding-bottom: 8px;
+        font-size: 23px;
+        line-height: 20px;
+    }
+    .agency-line {
+        margin: 10px auto;
+    }
+    .agency-main p {
+        font-size: 13px;
+        line-height: 24px;
+        padding-bottom: 21px;
+        max-width: 60%;
+    }
+    #featur {
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+    #featur::after{
+        height: 100px;
+    }
+    .featur-img-main {
+        padding: 30px 0;
+        font-size: 25px;
+    }
+    .featur-img-main {
+        padding: 30px 0;
+    }
+    .strip-main {
+        gap: 30px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .strip-contan p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 16px 0;
+    }
+    .inertia-main {
+        padding: 45px 0;
+    }
+    .inertia-text h2{
+        font-size: 24px;
+    }
+    .inertia-text p {
+        max-width: 60%;
+    }
+    .dublin{
+        margin: 20px 0;
+    }
+    .dublin-text ul a {
+        padding-bottom: 0px;
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .company-main {
+        padding: 40px 0;
+    }
+    .company-blog{
+        gap: 15px;
+        padding-top: 20px;
+    }
+    .col-company {
+        width: calc(33.33% - 10px);
+    }
+    .company-text h3 {
+        max-width: 100%;
+        padding-bottom: 0px;
+    }
+    .company-text h3{
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .company-text p {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    .damon-text h6 {
+        font-size: 13px;
+    }
+    .make-img img {
+        height: 270px;
+    }
+    .make-text h2 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 5px;
+    }
+    .make-text p{
+        margin-bottom: 10px;
+    }
+    .make-text a {
+        padding: 9px 11px;
+        font-size: 15px;
+    }
+    .footer-main{
+        padding-top: 50px;
+    }
+    .footer-blog ul li {
+        padding-bottom: 5px;
+    }
+    .footer-blog ul li a{
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .footer-icon {
+        padding: 20px 0;
+    }
+    .footer-icon ul li a {
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .icon {
+        gap: 6px;
+    }
+}
+@media screen and (max-width:767px){
+    .banner-main {
+        top: 37%;
+    }
+    .banner-contant a{
+        padding: 5px 9px;
+    }
+    .banner-img img {
+        height: 350px;
+    }
+    .banner-contant h6 {
+        margin-bottom: 5px;
+        line-height: 8px;
+        letter-spacing: 2.5px;
+    }
+    .banner-contant h1 {
+        padding-bottom: 18px;
+        font-size: 25px;
+        line-height: 36px;
+        max-width: 90%;
+    }
+    .agency-contant h2 {
+        padding-bottom: 6px;
+        font-size: 20px;
+        line-height: 15px;
+    }
+    .agency-main p{
+        max-width: 100%;
+        padding-bottom: 15px;
+    }
+    .featur-contant h2 {
+        font-size: 26px;
+        line-height: 27px;
+    }
+    #featur {
+        padding-top: 26px;
+        padding-bottom: 80px;
+    }
+    .featur-img-main {
+        padding: 23px 0;
+    }
+    #featur::after {
+        height: 70px;
+    }
+    .strip-main {
+        gap: 18px;
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .strip-contan p{
+        font-size: 13px;
+    }
+    .inertia-main {
+        padding: 30px 0;
+    }
+    .inertia-text h2 {
+        font-size: 20px;
+        line-height: 15px;
+        padding-bottom: 9px;
+    }
+    .inertia-text p {
+        max-width: 100%;
+        font-size: 17px;
+    }
+    .dublin {
+        margin: 15px 0;
+    }
+    .col-featur-img {
+        width: calc(50% - 10px);
+    }
+    .company-main {
+        padding: 35px 0;
+    }
+    .company-contant h2{
+        font-size: 26px;
+    }
+    .company-text h3{
+        font-size: 17px;
+    }
+    .make-img img {
+        height: 220px;
+    }
+    .make-text p{
+        font-size: 15px;
+    }
+    .footer-main {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .col-footer {
+        width: calc(33.33% - 13.33px);
+    }
+    .footer-blog h5{
+        margin-bottom: 5px;
+    }
+    .footer-blog ul li {
+        padding-bottom: 0px;
+    }
+    .footer-blog ul li a {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:575px){
+    .boy-now a {
+        font-size: 11px;
+        padding: 3px 10px;
+    }
+    #header {
+        padding-top: 8px;
+    }
+    .banner-contant h1 {
+        padding-bottom: 17px;
+        font-size: 20px;
+        line-height: 27px;
+        max-width: 90%;
+    }
+    .agency-contant h2 {
+        padding-bottom: 0;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .featur-contant h2 {
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .col-featur-img {
+        width: 100%;
+    }
+    .strip-main{
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+    .col-strip {
+        width: 100%;
+    }
+    .strip-contan p {
+        padding: 11px 0;
+    }
+    .col-dublin {
+        width: 100%;
+    }
+    .dublin{
+        flex-wrap: wrap;
+    }
+    .dublin-text h3{
+        margin-bottom: 0;
+    }
+    .company-contant h2 {
+        font-size: 22px;
+        line-height: 18px;
+    }
+    .company-blog{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .col-company {
+        width: 100%;
+    }
+    .make-text h2 {
+        font-size: 26px;
+        line-height: 24px;
+        padding-bottom: 0px;
+    }
+    .make-text p{
+        line-height: 20px;
+    }
+    .make-text a {
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+    .footer-main {
+        padding-top: 30px;
+    }
+    .col-footer {
+        width: 100%;
+    }
+    .footer-blog h5 {
+        margin-bottom: 0;
+    }
+
+}
+
